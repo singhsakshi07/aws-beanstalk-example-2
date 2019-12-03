@@ -53,14 +53,14 @@
 						<phase>none</phase>
 					</execution>
 					<execution>
-						<id>war-packaging</id>
+						<id>war-exploded</id>
 						<configuration>
 							<webappDirectory>target/deploy</webappDirectory>
 							<archiveClasses>true</archiveClasses>
 						</configuration>
 						<phase>prepare-package</phase>
 						<goals>
-							<goal>war</goal>
+							<goal>exploded</goal>
 						</goals>
 					</execution>
 				</executions>
