@@ -15,10 +15,10 @@ phases:
   post_build:
     commands:
     - echo "Entered the post-build phase"
-    - mv target/deploy ./
+  #  - mv target/deploy ./ 
 artifacts:
   files:
     - deploy/**/*
-    - target/*.war
+    - '**/*.war'
     - appspec.yml
   discard-paths: yes
