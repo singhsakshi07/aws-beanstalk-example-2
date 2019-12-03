@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/aws-elastic-beanstalk-example-2-0.0.1-SNAPSHOT.war
+  - source: ./aws-elastic-beanstalk-example-2-0.0.1-SNAPSHOT.war
     destination: /apps/apache-tomcat-8.5.49/webapps/
