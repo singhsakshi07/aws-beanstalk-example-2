@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "Welcome to the new AWS-Cloud world";
+        return "Welcome to the New World";
     }
 }
